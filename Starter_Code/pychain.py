@@ -34,6 +34,11 @@ import hashlib
 # Step 1:
 # Create a Record Data Class
 
+@dataclass
+class Record:
+    sender: str
+    receiver: str
+    amount: float
 # Define a new Python data class named `Record`. Give this new class a
 # formalized data structure that consists of the `sender`, `receiver`, and
 # `amount` attributes. To do so, complete the following steps:
@@ -68,7 +73,7 @@ class Block:
 
     # @TODO
     # Rename the `data` attribute to `record`, and set the data type to `Record`
-    data: Any
+    record: Record
 
     creator_id: int
     prev_hash: str = 0
@@ -170,15 +175,15 @@ input_data = st.text_input("Block Data")
 
 # @TODO:
 # Add an input area where you can get a value for `sender` from the user.
-# YOUR CODE HERE
+sender = st.text_input("Sender ID")
 
 # @TODO:
 # Add an input area where you can get a value for `receiver` from the user.
-# YOUR CODE HERE
+receiver = st.text_input("Receiver ID")
 
 # @TODO:
 # Add an input area where you can get a value for `amount` from the user.
-# YOUR CODE HERE
+amount = st.text_input("Amount")
 
 if st.button("Add Block"):
     prev_block = pychain.chain[-1]
