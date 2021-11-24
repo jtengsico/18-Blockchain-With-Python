@@ -44,7 +44,6 @@ This is a blockchain ledger on a streamlit interface. Running the pychain.py fil
 ## Installation 
 
 To setup this program on your desktop, follow the instructions below. 
-After cloning the repo, go 
 
 1. Clone the repo
 2. Install required python packages. 
