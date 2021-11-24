@@ -58,16 +58,20 @@ After cloning the repo, go
 Please the screenshots below on how to run and add a block to pychain. 
 
 The image below shows how to navigate to and run the pychain.py file. 
-![18.run_streamlit_terminal.png](images/18.run_streamlit_terminal.png)
+![18.run_streamlit_terminal.png](Images/18.run_streamlit_terminal.png)
+
 You should see the screen below which shows that the pychain file is running successfully and that streamlit has been launched in your default browser. 
-![18.streamlit.running.png](images/18.streamlit.running.png)  
+![18.streamlit.running.png](Images/18.streamlit.running.png)  
+
 In your browser, you should see the pychain ledger. 
 When you add a few blocks to the ledger, you should see the transactions saved.
-![18.pychain_record.png](images/18.pychain_record.png)
+![18.pychain_record.png](Images/18.pychain_record.png)
+
 On the left hand side, you should see a drop down that allows you to inspect the blocks that were added. 
-![18.pychain_detailed.png)](images/18.pychain_detailed.png)
+![18.pychain_detailed.png)](Images18.pychain_detailed.png)
+
 If you click on validate, you should receive a message that says True which proves the transactions are valid. 
-![18.validated_pychain.png](images/18.validated_pychain.png)
+![18.validated_pychain.png](Images/18.validated_pychain.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
